@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE weblogic-ejb-jar PUBLIC '-//BEA Systems, Inc.//DTD WebLogic 8.1.0 EJB//EN'
+'http://www.bea.com/servers/wls810/dtd/weblogic-ejb-jar.dtd'>
+<weblogic-ejb-jar>
+    <!-- UserSessionFacadeEJB -->
+    <weblogic-enterprise-bean>
+        <ejb-name>UserSessionFacadeEJB</ejb-name>
+        <stateless-session-descriptor>
+            <pool>
+                <max-beans-in-free-pool>5</max-beans-in-free-pool>
+                <initial-beans-in-free-pool>5</initial-beans-in-free-pool>
+            </pool>
+        </stateless-session-descriptor>
+        <enable-call-by-reference>True</enable-call-by-reference>
+        <jndi-name>UserSessionFacadeEJB</jndi-name>
+    </weblogic-enterprise-bean>
+    </weblogic-ejb-jar>

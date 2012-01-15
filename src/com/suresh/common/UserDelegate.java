@@ -1,3 +1,4 @@
+// Some comments
 package com.suresh.common;
 import java.rmi.RemoteException;
 import javax.ejb.CreateException;
